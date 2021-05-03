@@ -10,7 +10,10 @@ function kever(){
     lepes=0;
     sor=[0,0,0,0,0,0,0]
     for(let i=0;i<100;i++){
-            valt(Math.floor(Math.random()*7))
+        valt(Math.floor(Math.random()*7))
+    }
+    if (sor.toString()=="0,0,0,0,0,0,0"){          /**ha egy sincs felkapcsolva az úgy nem buli */
+        valt(Math.floor(Math.random()*7))
     }
 }
 function kapcsol(az){
