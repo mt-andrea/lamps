@@ -32,7 +32,7 @@ function valt(n){
 }
 function vege(){
     if(sor.toString()=="0,0,0,0,0,0,0"){
-        let n=prompt("Congratulations, succeeded in"+lepes+" steps\nName?")
+        let n=prompt("Congratulations, succeeded in "+lepes+" steps\nName?")
         beszur(n,lepes)
         kiir()
         kever()
