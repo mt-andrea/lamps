@@ -9,7 +9,6 @@ kiir()
 function kever(){
     lepes=0;
     sor=[0,0,0,0,0,0,0]
-    let n=
     for(let i=0;i<100;i++){
             valt(Math.floor(Math.random()*7))
     }
