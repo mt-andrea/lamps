@@ -9,14 +9,9 @@ kiir()
 function kever(){
     lepes=0;
     sor=[0,0,0,0,0,0,0]
-    let n=Math.floor(Math.random()*7)
+    let n=
     for(let i=0;i<100;i++){
-        if (n==0){
-            valt(n+1)
-        }else{
-            valt(n)
-        }
-        
+            valt(Math.floor(Math.random()*7))
     }
 }
 function kapcsol(az){
