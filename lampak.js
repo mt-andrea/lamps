@@ -1,9 +1,9 @@
 let lepes; /**4 lépés a minimum, úgy gondolom. Ha szerencséje van az embernek, és 6 világít elég 2 is.*/
 let sor;
 kever();
-let lista=[new Jatekos("Névtelen",100),
-new Jatekos("Névtelen",100),
-new Jatekos("Névtelen",100)
+let lista=[new Jatekos("Nameless",100),
+new Jatekos("Nameless",100),
+new Jatekos("Nameless",100)
 ]
 kiir()
 function kever(){
@@ -32,7 +32,7 @@ function valt(n){
 }
 function vege(){
     if(sor.toString()=="0,0,0,0,0,0,0"){
-        let n=prompt("Gratulálok, sikerült "+lepes+" lépésben\nNeved?")
+        let n=prompt("Congratulations, succeeded in"+lepes+" steps\nName?")
         beszur(n,lepes)
         kiir()
         kever()
